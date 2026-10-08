@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Certcraft</title>
+  <desc id="desc">A teal certificate mark with a white letter c.</desc>
+  <rect width="64" height="64" rx="16" fill="#176e66"/>
+  <path d="M42.8 22.3a15.4 15.4 0 1 0 0 19.4l-6.1-4.1a7.8 7.8 0 1 1 0-11.2z" fill="#fff"/>
+  <path d="m43.6 17.5 2.1 4.2 4.7.7-3.4 3.3.8 4.7-4.2-2.2-4.2 2.2.8-4.7-3.4-3.3 4.7-.7z" fill="#9de3c7"/>
+</svg>
