@@ -8,8 +8,6 @@ import template03 from './assets/certificate-templates/Template 03.jpg'
 import template04 from './assets/certificate-templates/Template 04.jpg'
 
 const templates = [template01, template02, template03, template04]
-const initialPeople = ['Avery Johnson', 'Jordan Lee', 'Taylor Morgan']
-
 const fitScale = (text, maxCharacters) => Math.min(1, maxCharacters / Math.max(text.length, maxCharacters))
 
 function parseCsv(text, requestedColumn) {
@@ -37,7 +35,7 @@ function parseCsv(text, requestedColumn) {
 }
 
 function App() {
-  const [people, setPeople] = useState(initialPeople)
+  const [people, setPeople] = useState([])
   const [selected, setSelected] = useState(0)
   const [session, setSession] = useState('Community workshop')
   const [presenter, setPresenter] = useState('Your name')
